@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <input type="checkbox" id="btn1">
+  <label for="btn1" id="btn2">How to Play ?</label>
+  
+  <div id="instr">
+    <label for="btn1" id="cross">&#x274C</label>
+    <br><br><br><br>
+    1. The Game will Start with a short sequence of colors and gradually increase the length of the sequences as you level up. <br> <br>
+    2. Try to focus on the pattern of the colors. <br> <br>
+    3. If you make a mistake, don't give up. Just start the sequence over and try again. <br> <br>
+    4. With practice, you'll be able to remember longer and longer sequences of colors. <br>
+  </div>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+  <script src="game.js" ></script>
+
+
+</body>
+
+</html>
